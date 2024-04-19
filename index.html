@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Buscar dados</title>
+</head>
+<body>
+    <div class="container">
+        <div class="esq">
+            <h2>Pesquisar</h2>
+
+            <div class="pesquisa">
+                <input id="searchInput" type="text">
+                <button onclick="search()"> 
+                    <i class="material-icons">arrow_forward</i>
+                </button>
+                <button onclick="clearResults()">Limpar Pesquisas</button>
+            </div>
+        </div>
+        
+        <div id="searchResults">
+        </div>
+        <div id="recentLinks">
+            <h3>Links Recentes</h3>
+            <ul id="recentLinksList"></ul>
+        </div>
+
+    </div>  
+    
+    <script src="main.js"></script>
+</body>
+</html>

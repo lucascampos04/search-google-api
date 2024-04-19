@@ -1,0 +1,90 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 800px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+h2 {
+    font-size: 60px;
+    margin: 0%;
+}
+
+input {
+    width: 100%;
+    max-width: 300px;
+    height: 50px;
+    margin: 0%;
+}
+
+button {
+    padding: 10px 20px;
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    background: none;
+    border: none;
+    box-shadow: 1px 1px 1px 1px black;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: aliceblue;
+    box-shadow: none;
+}
+
+.pesquisa {
+    display: flex;
+    justify-content: center;
+}
+
+#searchResults {
+    margin-top: 20px;
+}
+
+.resultContainer {
+    margin-bottom: 10px;
+}
+
+.resultAnchor {
+    display: block;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+.resultAnchor:hover {
+    background-color: #e0e0e0;
+}
+
+#recentLinks {
+    width: 100%;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#recentLinksList {
+    padding: 0;
+    list-style-type: none;
+}
+
+#recentLinksList li {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
